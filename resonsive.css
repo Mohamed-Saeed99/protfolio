@@ -1,4 +1,4 @@
-@media (max-width:1496px) {
+@media (min-width:992px) and (max-width:1496px) {
     .container_content_home {
         margin-top: 80px;
     }
@@ -44,10 +44,15 @@
         height: 985px;
     }
 
+    .navbar {
+        z-index: 999;
+    }
+
     .navbar-nav {
         display: flex;
         justify-content: center;
         align-items: center;
+        z-index: 99;
     }
 
     .nav-item {
@@ -68,7 +73,8 @@
     }
 
     .container_content_home {
-        margin-top: 15px;
+        position: relative;
+        bottom: 80px;
     }
 
 
