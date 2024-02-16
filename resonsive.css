@@ -67,6 +67,11 @@
         padding: 40px 0px;
     }
 
+    .container_content_home {
+        margin-top: 15px;
+    }
+
+
     .image_container_about {
         height: 600px;
         width: 100%;
