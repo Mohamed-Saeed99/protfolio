@@ -9,9 +9,10 @@
 .header {
     width: 100%;
     height: 700px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url(https://wisheny.com/cdn/shop/files/pexels-pixabay-358528.jpg?v=1703908215&width=2000);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url(imgs/WhatsApp\ Image\ 2024-04-08\ at\ 12.42.57_f0f238b7.jpg);
     background-position: center;
     background-size: cover;
+    overflow: hidden;
 }
 
 .img_logo {
@@ -59,6 +60,8 @@
 .home_section {
     width: 100%;
     height: 80vh;
+    overflow: hidden;
+    /* background-image: url(imgs/WhatsApp\ Image\ 2024-04-08\ at\ 12.42.57_f0f238b7.jpg); */
 }
 
 .container_content_home {
@@ -68,13 +71,14 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    /* background-image: url(imgs/WhatsApp\ Image\ 2024-04-08\ at\ 12.42.57_f0f238b7.jpg); */
 }
 
 .img_box_container {
     width: 140px;
     height: 140px;
     border-radius: 50%;
-    background-image: url(imgs/WhatsApp\ Image\ 2024-02-10\ at\ 20.13.03_3d3ff83c.jpg);
+    background-image: url("imgs/WhatsApp\ Image\ 2024-02-10\ at\ 20.13.03_3d3ff83c.jpg");
     background-position: center;
     background-size: cover;
     display: inline-block;
@@ -169,6 +173,7 @@ body {
 .about {
     height: auto;
     padding: 80px 0px;
+    overflow: hidden;
 }
 
 .about_headings {
@@ -236,6 +241,7 @@ body {
     width: 100%;
     height: auto;
     padding: 80px 120px;
+    overflow: hidden;
 }
 
 .heading_skills_container {
@@ -293,6 +299,7 @@ body {
 .services {
     height: auto;
     padding: 50px 100px;
+    overflow: hidden;
 }
 
 .heading_service_container {
@@ -380,6 +387,7 @@ body {
 .project {
     height: auto;
     padding: 50px 100px;
+    overflow: hidden;
 }
 
 .heading_project_container {
@@ -484,6 +492,7 @@ footer {
     padding: 50px 90px;
     background-color: #0d0b20;
     height: auto;
+    overflow: hidden;
 }
 
 .heading_footer {
